@@ -1,0 +1,53 @@
+nav{
+    border-bottom: 1px solid rgba(12, 104, 244, 0.3);
+}
+nav .container {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .container .links {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    list-style: none;
+}
+
+nav .container .links li {
+    color: rgba(12, 12, 12, 1);
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+nav .container .links li a {
+    color: rgba(12, 12, 12, 1);
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+
+
+
+nav .container .nav_icons {
+    display: flex;
+    align-items: center;
+}
+
+nav .container .nav_icons .nav_box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav .container .nav_icons .nav_box svg {
+    font-size: 24px;
+    color: rgba(12, 12, 12, 1);
+}

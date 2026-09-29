@@ -1,0 +1,32 @@
+.Home_hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Home_hero .container .hero_info h1 {
+    color: rgba(4, 35, 82, 1);
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.Home_hero .container .hero_info h3 {
+    color: rgba(4, 35, 82, 1);
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+
+.Home_hero .container .hero_info span {
+    color: rgba(244, 94, 12, 1);
+}
+
+.Home_hero .container .hero_btn button {
+    width: 288px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(244, 94, 12, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}

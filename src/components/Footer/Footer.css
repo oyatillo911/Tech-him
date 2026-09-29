@@ -1,0 +1,180 @@
+.footer_top {
+    background-color: #031B40FF;
+}
+
+.footer_info svg {
+    color: rgba(203, 203, 203, 1);
+    font-size: 20px;
+}
+
+footer .footer_top .container {
+    padding-top: 50px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+footer .footer_top .container h6 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer .footer_top .container ul {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .footer_top .container ul li a {
+    color: rgba(203, 203, 203, 1);
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+footer .footer_top .container span {
+    color: rgba(203, 203, 203, 1);
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+footer .footer_top .container .F-topBox {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .footer_top .container .F-topBox .footer_info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .footer_top .container .F-top_box {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer .footer_top .container .F-top_box .F-top_input {
+    width: 288px;
+    height: 48px;
+    position: relative;
+}
+
+footer .footer_top .container .F-top_box .F-top_input input {
+    width: 100%;
+    height: 100%;
+    padding: 0px 38px;
+    border: 1px solid rgba(249, 249, 249, 1);
+    border-radius: 8px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+footer .footer_top .container .F-top_box .F-top_input input::placeholder {
+    color: rgba(249, 249, 249, 1);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+footer .footer_top .container .F-top_box .F-top_input .user_input {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+footer .footer_top .container .F-top_box .F-top_input .chevron_input {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+footer .footer_top .container .F-top_box .F-top_input svg {
+    font-size: 24px;
+    color: rgba(249, 249, 249, 1);
+}
+
+footer .footer_top .container .F-top_box .F-top_icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .footer_top .container .F-top_box .F-top_icon .social {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer_top .container .F-top_box .F-top_icon .social svg {
+    color: rgba(255, 255, 255, 1);
+    font-size: 26px;
+}
+
+.footer_box {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.footer_box .message {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(174, 205, 251, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_box .message svg {
+    font-size: 15px;
+}
+
+.footer_top .pay #container {
+    max-width: 1200px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+
+footer .footer_bottom {
+    background-color: rgba(2, 23, 54, 1);
+    border: 2px solid rgba(2, 23, 54, 1);
+    padding: 15px 0px;
+}
+
+footer .footer_bottom .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer_bottom .container ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+footer .footer_bottom .container ul li a {
+    color: rgba(203, 203, 203, 1);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
